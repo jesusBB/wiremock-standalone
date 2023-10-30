@@ -1,10 +1,13 @@
 {
 	"request":{
 		"method":"GET",
-		"url": "/playerStats"
+		"url": "/fixtures/players?fixture=1"
 	},
 	"response": {
 		"status": 200,
-		"bodyFileName": "playerStats.json"
+		"bodyFileName": "playerStats.json",
+		"headers": {
+			"Content-Type": "application/json"
+		}
 	}
 }
