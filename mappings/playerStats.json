@@ -1,10 +1,10 @@
 {
 	"request":{
 		"method":"GET",
-		"url": "/hola"
+		"url": "/playerStats"
 	},
 	"response": {
 		"status": 200,
-		"body": "hola 1.0"
+		"bodyFileName": "playerStats.json"
 	}
 }

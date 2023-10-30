@@ -1,5 +1,5 @@
-From wiremock/wiremock:2.34.0
+FROM wiremock/wiremock:2.34.0
 
 COPY . /home/wiremock
 
-EXPOSE 8080
+EXPOSE 8081
